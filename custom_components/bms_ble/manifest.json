@@ -15,6 +15,10 @@
       "local_name": "ECO-WORTHY 02_*"
     },
     {
+      "local_name": "ECOE*",
+      "service_uuid": "00000001-0000-1000-8000-00805f9b34fb"
+    },
+    {
       "local_name": "Epsilon*"
     },
     {
@@ -138,6 +142,6 @@
   "issue_tracker": "https://github.com/patman15/BMS_BLE-HA/issues",
   "loggers": ["bleak_retry_connector", "aiobmsble"],
   "quality_scale": "silver",
-  "requirements": ["aiobmsble==0.23.0"],
+  "requirements": ["aiobmsble @ git+https://github.com/jason1242000/aiobmsble.git@eco-worthy-bms"],
   "version": "2.13.0"
 }
